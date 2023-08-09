@@ -42,7 +42,8 @@ struct ContentView: View {
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(
-            lampadaLigada ? .yellow.opacity(lampadaPotencia) : .white)
+            lampadaLigada ?
+                .yellow.opacity(lampadaPotencia) : .white)
     }
 }
         
